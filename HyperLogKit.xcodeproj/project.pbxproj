@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04ACE675DAF340F54AEE13B5 /* Pods_HyperLogKit_OSX_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB1709FABDC3F807D4EA096 /* Pods_HyperLogKit_OSX_Tests.framework */; };
+		17C7F361F7FE99C1CF739A69 /* Pods_HyperLogKit_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485CFF048939970AA2D19CB0 /* Pods_HyperLogKit_watchOS.framework */; };
+		2CB78E60233F87942E9300C3 /* Pods_HyperLogKit_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86617E55B5820E2138E4F13 /* Pods_HyperLogKit_OSX.framework */; };
+		3F9D2568E1D170A0C5F92767 /* Pods_HyperLogKit_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E06361546F7CCA8D538E3C /* Pods_HyperLogKit_tvOS.framework */; };
+		833A6481639E14501564680C /* Pods_HyperLogKit_tvOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A4C0EBF3589214C53C469F /* Pods_HyperLogKit_tvOS_Tests.framework */; };
+		A2736FD3EA0756ED3DFD8AA0 /* Pods_HyperLogKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFC1F49AB452FC297052E02 /* Pods_HyperLogKit_iOS.framework */; };
+		A6D500445BE41DD5B47D5ED0 /* Pods_HyperLogKit_iOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D573989F12906D0DA3D98F6 /* Pods_HyperLogKit_iOS_Tests.framework */; };
 		B82107B9230D9CD7000B3572 /* DatabaseEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82107B8230D9CD7000B3572 /* DatabaseEndpoints.swift */; };
-		B82107BF230DB792000B3572 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82107BE230DB792000B3572 /* CoreData.framework */; };
 		B82107C2230DCAD8000B3572 /* LogKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B82107C0230DCAD8000B3572 /* LogKit.xcdatamodeld */; };
-		D00B8C9E1B2E3B8F003E5FED /* LogKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00B8C921B2E3B8F003E5FED /* LogKit.framework */; };
-		D00B8CBE1B2E3BC3003E5FED /* LogKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00B8CB31B2E3BC3003E5FED /* LogKit.framework */; };
+		B834CC9D23187F1600E83854 /* HyperLogKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00B8C921B2E3B8F003E5FED /* HyperLogKit.framework */; };
+		B834CC9F23187F4F00E83854 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B834CC9E23187F4F00E83854 /* CoreData.framework */; };
+		D00B8C9E1B2E3B8F003E5FED /* HyperLogKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00B8C921B2E3B8F003E5FED /* HyperLogKit.framework */; };
+		D00B8CBE1B2E3BC3003E5FED /* HyperLogKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00B8CB31B2E3BC3003E5FED /* HyperLogKit.framework */; };
 		D00B8CD51B2E400E003E5FED /* LogKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00B8CD41B2E400E003E5FED /* LogKit.swift */; };
 		D00B8CD61B2E400E003E5FED /* LogKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00B8CD41B2E400E003E5FED /* LogKit.swift */; };
 		D00B8CDC1B2E9126003E5FED /* LogKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D00B8CDB1B2E9126003E5FED /* LogKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,7 +36,7 @@
 		D0449EAF1B4C66BC00D7E1D3 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0449EAE1B4C66BC00D7E1D3 /* Endpoints.swift */; };
 		D0449EB41B4DB7B000D7E1D3 /* ConsoleEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0449EB31B4DB7B000D7E1D3 /* ConsoleEndpoints.swift */; };
 		D0449EB81B4DC1F300D7E1D3 /* FileEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0449EB71B4DC1F300D7E1D3 /* FileEndpoints.swift */; };
-		D0C618151BD01918008BF5F2 /* LogKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C6180B1BD01917008BF5F2 /* LogKit.framework */; };
+		D0C618151BD01918008BF5F2 /* HyperLogKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C6180B1BD01917008BF5F2 /* HyperLogKit.framework */; };
 		D0C618221BD01A0F008BF5F2 /* LogKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00B8CD41B2E400E003E5FED /* LogKit.swift */; };
 		D0C618231BD01A12008BF5F2 /* Entries.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0449EA21B4C606900D7E1D3 /* Entries.swift */; };
 		D0C618241BD01A14008BF5F2 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F8DD331B4B253700D0865A /* Formatters.swift */; };
@@ -68,13 +76,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04E06361546F7CCA8D538E3C /* Pods_HyperLogKit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperLogKit_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB1709FABDC3F807D4EA096 /* Pods_HyperLogKit_OSX_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperLogKit_OSX_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D67D05BCC3059C290C3FCC /* Pods-HyperLogKit iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperLogKit iOS.debug.xcconfig"; path = "Target Support Files/Pods-HyperLogKit iOS/Pods-HyperLogKit iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		26993F74FB501BA143A30326 /* Pods-HyperLogKit OSX Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperLogKit OSX Tests.debug.xcconfig"; path = "Target Support Files/Pods-HyperLogKit OSX Tests/Pods-HyperLogKit OSX Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		485CFF048939970AA2D19CB0 /* Pods_HyperLogKit_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperLogKit_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E3C3D4CF1B367F50378B0D /* Pods-HyperLogKit OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperLogKit OSX.debug.xcconfig"; path = "Target Support Files/Pods-HyperLogKit OSX/Pods-HyperLogKit OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		5D573989F12906D0DA3D98F6 /* Pods_HyperLogKit_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperLogKit_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60A4C0EBF3589214C53C469F /* Pods_HyperLogKit_tvOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperLogKit_tvOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFC1F49AB452FC297052E02 /* Pods_HyperLogKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperLogKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D076678422887A14C2BBD3F /* Pods-HyperLogKit tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperLogKit tvOS.debug.xcconfig"; path = "Target Support Files/Pods-HyperLogKit tvOS/Pods-HyperLogKit tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		911942203AF0E477B099A2B6 /* Pods-HyperLogKit tvOS Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperLogKit tvOS Tests.release.xcconfig"; path = "Target Support Files/Pods-HyperLogKit tvOS Tests/Pods-HyperLogKit tvOS Tests.release.xcconfig"; sourceTree = "<group>"; };
+		912B96094018309802DB8AF8 /* Pods-HyperLogKit OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperLogKit OSX.release.xcconfig"; path = "Target Support Files/Pods-HyperLogKit OSX/Pods-HyperLogKit OSX.release.xcconfig"; sourceTree = "<group>"; };
 		B82107B8230D9CD7000B3572 /* DatabaseEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseEndpoints.swift; sourceTree = "<group>"; };
-		B82107BE230DB792000B3572 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B82107C1230DCAD8000B3572 /* LogKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LogKit.xcdatamodel; sourceTree = "<group>"; };
-		D00B8C921B2E3B8F003E5FED /* LogKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D00B8C9D1B2E3B8F003E5FED /* LogKit iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LogKit iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D00B8CB31B2E3BC3003E5FED /* LogKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D00B8CBD1B2E3BC3003E5FED /* LogKit OSX Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LogKit OSX Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B834CC9E23187F4F00E83854 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		B86617E55B5820E2138E4F13 /* Pods_HyperLogKit_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperLogKit_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15487ACA0808AC877AA5E1E /* Pods-HyperLogKit iOS Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperLogKit iOS Tests.debug.xcconfig"; path = "Target Support Files/Pods-HyperLogKit iOS Tests/Pods-HyperLogKit iOS Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D00B8C921B2E3B8F003E5FED /* HyperLogKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HyperLogKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00B8C9D1B2E3B8F003E5FED /* HyperLogKit iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HyperLogKit iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00B8CB31B2E3BC3003E5FED /* HyperLogKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HyperLogKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00B8CBD1B2E3BC3003E5FED /* HyperLogKit OSX Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HyperLogKit OSX Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00B8CD41B2E400E003E5FED /* LogKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogKit.swift; sourceTree = "<group>"; };
 		D00B8CD71B2E4157003E5FED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D00B8CDB1B2E9126003E5FED /* LogKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogKit.h; sourceTree = "<group>"; };
@@ -86,11 +108,18 @@
 		D0449EAE1B4C66BC00D7E1D3 /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		D0449EB31B4DB7B000D7E1D3 /* ConsoleEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleEndpoints.swift; sourceTree = "<group>"; };
 		D0449EB71B4DC1F300D7E1D3 /* FileEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileEndpoints.swift; sourceTree = "<group>"; };
-		D0C6180B1BD01917008BF5F2 /* LogKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0C618141BD01918008BF5F2 /* LogKit tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LogKit tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C6180B1BD01917008BF5F2 /* HyperLogKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HyperLogKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C618141BD01918008BF5F2 /* HyperLogKit tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HyperLogKit tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C6C8E51B64610100BD87B5 /* HTTPEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPEndpoints.swift; sourceTree = "<group>"; };
-		D0F8DD291B4B1ADC00D0865A /* LogKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F8DD291B4B1ADC00D0865A /* HyperLogKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HyperLogKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F8DD331B4B253700D0865A /* Formatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		D721B8C8A530E945AA9031ED /* Pods-HyperLogKit iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperLogKit iOS.release.xcconfig"; path = "Target Support Files/Pods-HyperLogKit iOS/Pods-HyperLogKit iOS.release.xcconfig"; sourceTree = "<group>"; };
+		DBB0D7A4C84B6335B7F723C9 /* Pods-HyperLogKit watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperLogKit watchOS.release.xcconfig"; path = "Target Support Files/Pods-HyperLogKit watchOS/Pods-HyperLogKit watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		DE8317C8F7A2A3F8930685C9 /* Pods-HyperLogKit tvOS Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperLogKit tvOS Tests.debug.xcconfig"; path = "Target Support Files/Pods-HyperLogKit tvOS Tests/Pods-HyperLogKit tvOS Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3C70668319E8152801B8E42 /* Pods-HyperLogKit iOS Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperLogKit iOS Tests.release.xcconfig"; path = "Target Support Files/Pods-HyperLogKit iOS Tests/Pods-HyperLogKit iOS Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F51CDD88CFF45D441B02B780 /* Pods-HyperLogKit OSX Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperLogKit OSX Tests.release.xcconfig"; path = "Target Support Files/Pods-HyperLogKit OSX Tests/Pods-HyperLogKit OSX Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F6E46ABE09D24E44EFC5087F /* Pods-HyperLogKit tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperLogKit tvOS.release.xcconfig"; path = "Target Support Files/Pods-HyperLogKit tvOS/Pods-HyperLogKit tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		FA3B699E940707CC4D889E49 /* Pods-HyperLogKit watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperLogKit watchOS.debug.xcconfig"; path = "Target Support Files/Pods-HyperLogKit watchOS/Pods-HyperLogKit watchOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B82107BF230DB792000B3572 /* CoreData.framework in Frameworks */,
+				A2736FD3EA0756ED3DFD8AA0 /* Pods_HyperLogKit_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +135,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D00B8C9E1B2E3B8F003E5FED /* LogKit.framework in Frameworks */,
+				D00B8C9E1B2E3B8F003E5FED /* HyperLogKit.framework in Frameworks */,
+				A6D500445BE41DD5B47D5ED0 /* Pods_HyperLogKit_iOS_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +144,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B834CC9F23187F4F00E83854 /* CoreData.framework in Frameworks */,
+				B834CC9D23187F1600E83854 /* HyperLogKit.framework in Frameworks */,
+				2CB78E60233F87942E9300C3 /* Pods_HyperLogKit_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +154,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D00B8CBE1B2E3BC3003E5FED /* LogKit.framework in Frameworks */,
+				D00B8CBE1B2E3BC3003E5FED /* HyperLogKit.framework in Frameworks */,
+				04ACE675DAF340F54AEE13B5 /* Pods_HyperLogKit_OSX_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9D2568E1D170A0C5F92767 /* Pods_HyperLogKit_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +171,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0C618151BD01918008BF5F2 /* LogKit.framework in Frameworks */,
+				D0C618151BD01918008BF5F2 /* HyperLogKit.framework in Frameworks */,
+				833A6481639E14501564680C /* Pods_HyperLogKit_tvOS_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17C7F361F7FE99C1CF739A69 /* Pods_HyperLogKit_watchOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +190,14 @@
 		B82107BD230DB792000B3572 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B82107BE230DB792000B3572 /* CoreData.framework */,
+				B834CC9E23187F4F00E83854 /* CoreData.framework */,
+				B86617E55B5820E2138E4F13 /* Pods_HyperLogKit_OSX.framework */,
+				1AB1709FABDC3F807D4EA096 /* Pods_HyperLogKit_OSX_Tests.framework */,
+				6FFC1F49AB452FC297052E02 /* Pods_HyperLogKit_iOS.framework */,
+				5D573989F12906D0DA3D98F6 /* Pods_HyperLogKit_iOS_Tests.framework */,
+				04E06361546F7CCA8D538E3C /* Pods_HyperLogKit_tvOS.framework */,
+				60A4C0EBF3589214C53C469F /* Pods_HyperLogKit_tvOS_Tests.framework */,
+				485CFF048939970AA2D19CB0 /* Pods_HyperLogKit_watchOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,19 +209,20 @@
 				D00B8CD31B2E3FF2003E5FED /* Tests */,
 				D00B8C931B2E3B8F003E5FED /* Products */,
 				B82107BD230DB792000B3572 /* Frameworks */,
+				EFC3DE7CDE7C829664224C47 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		D00B8C931B2E3B8F003E5FED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D00B8CB31B2E3BC3003E5FED /* LogKit.framework */,
-				D00B8CBD1B2E3BC3003E5FED /* LogKit OSX Tests.xctest */,
-				D00B8C921B2E3B8F003E5FED /* LogKit.framework */,
-				D00B8C9D1B2E3B8F003E5FED /* LogKit iOS Tests.xctest */,
-				D0C6180B1BD01917008BF5F2 /* LogKit.framework */,
-				D0C618141BD01918008BF5F2 /* LogKit tvOS Tests.xctest */,
-				D0F8DD291B4B1ADC00D0865A /* LogKit.framework */,
+				D00B8CB31B2E3BC3003E5FED /* HyperLogKit.framework */,
+				D00B8CBD1B2E3BC3003E5FED /* HyperLogKit OSX Tests.xctest */,
+				D00B8C921B2E3B8F003E5FED /* HyperLogKit.framework */,
+				D00B8C9D1B2E3B8F003E5FED /* HyperLogKit iOS Tests.xctest */,
+				D0C6180B1BD01917008BF5F2 /* HyperLogKit.framework */,
+				D0C618141BD01918008BF5F2 /* HyperLogKit tvOS Tests.xctest */,
+				D0F8DD291B4B1ADC00D0865A /* HyperLogKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -235,6 +280,28 @@
 			name = Endpoints;
 			sourceTree = "<group>";
 		};
+		EFC3DE7CDE7C829664224C47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53E3C3D4CF1B367F50378B0D /* Pods-HyperLogKit OSX.debug.xcconfig */,
+				912B96094018309802DB8AF8 /* Pods-HyperLogKit OSX.release.xcconfig */,
+				26993F74FB501BA143A30326 /* Pods-HyperLogKit OSX Tests.debug.xcconfig */,
+				F51CDD88CFF45D441B02B780 /* Pods-HyperLogKit OSX Tests.release.xcconfig */,
+				20D67D05BCC3059C290C3FCC /* Pods-HyperLogKit iOS.debug.xcconfig */,
+				D721B8C8A530E945AA9031ED /* Pods-HyperLogKit iOS.release.xcconfig */,
+				C15487ACA0808AC877AA5E1E /* Pods-HyperLogKit iOS Tests.debug.xcconfig */,
+				E3C70668319E8152801B8E42 /* Pods-HyperLogKit iOS Tests.release.xcconfig */,
+				7D076678422887A14C2BBD3F /* Pods-HyperLogKit tvOS.debug.xcconfig */,
+				F6E46ABE09D24E44EFC5087F /* Pods-HyperLogKit tvOS.release.xcconfig */,
+				DE8317C8F7A2A3F8930685C9 /* Pods-HyperLogKit tvOS Tests.debug.xcconfig */,
+				911942203AF0E477B099A2B6 /* Pods-HyperLogKit tvOS Tests.release.xcconfig */,
+				FA3B699E940707CC4D889E49 /* Pods-HyperLogKit watchOS.debug.xcconfig */,
+				DBB0D7A4C84B6335B7F723C9 /* Pods-HyperLogKit watchOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -273,10 +340,11 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D00B8C911B2E3B8F003E5FED /* LogKit iOS */ = {
+		D00B8C911B2E3B8F003E5FED /* HyperLogKit iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D00B8CA81B2E3B8F003E5FED /* Build configuration list for PBXNativeTarget "LogKit iOS" */;
+			buildConfigurationList = D00B8CA81B2E3B8F003E5FED /* Build configuration list for PBXNativeTarget "HyperLogKit iOS" */;
 			buildPhases = (
+				C0EDE914675EF3FE1CDAA7F2 /* [CP] Check Pods Manifest.lock */,
 				D00B8C8D1B2E3B8F003E5FED /* Sources */,
 				D00B8C8E1B2E3B8F003E5FED /* Frameworks */,
 				D00B8C8F1B2E3B8F003E5FED /* Headers */,
@@ -286,15 +354,16 @@
 			);
 			dependencies = (
 			);
-			name = "LogKit iOS";
+			name = "HyperLogKit iOS";
 			productName = LogKit;
-			productReference = D00B8C921B2E3B8F003E5FED /* LogKit.framework */;
+			productReference = D00B8C921B2E3B8F003E5FED /* HyperLogKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D00B8C9C1B2E3B8F003E5FED /* LogKit iOS Tests */ = {
+		D00B8C9C1B2E3B8F003E5FED /* HyperLogKit iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D00B8CAB1B2E3B8F003E5FED /* Build configuration list for PBXNativeTarget "LogKit iOS Tests" */;
+			buildConfigurationList = D00B8CAB1B2E3B8F003E5FED /* Build configuration list for PBXNativeTarget "HyperLogKit iOS Tests" */;
 			buildPhases = (
+				66DE99C36AB6021081AF2F75 /* [CP] Check Pods Manifest.lock */,
 				D00B8C991B2E3B8F003E5FED /* Sources */,
 				D00B8C9A1B2E3B8F003E5FED /* Frameworks */,
 				D00B8C9B1B2E3B8F003E5FED /* Resources */,
@@ -304,15 +373,16 @@
 			dependencies = (
 				D00B8CA01B2E3B8F003E5FED /* PBXTargetDependency */,
 			);
-			name = "LogKit iOS Tests";
+			name = "HyperLogKit iOS Tests";
 			productName = LogKitTests;
-			productReference = D00B8C9D1B2E3B8F003E5FED /* LogKit iOS Tests.xctest */;
+			productReference = D00B8C9D1B2E3B8F003E5FED /* HyperLogKit iOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D00B8CB21B2E3BC3003E5FED /* LogKit OSX */ = {
+		D00B8CB21B2E3BC3003E5FED /* HyperLogKit OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D00B8CC61B2E3BC3003E5FED /* Build configuration list for PBXNativeTarget "LogKit OSX" */;
+			buildConfigurationList = D00B8CC61B2E3BC3003E5FED /* Build configuration list for PBXNativeTarget "HyperLogKit OSX" */;
 			buildPhases = (
+				7901344444337B6605305562 /* [CP] Check Pods Manifest.lock */,
 				D00B8CAE1B2E3BC3003E5FED /* Sources */,
 				D00B8CAF1B2E3BC3003E5FED /* Frameworks */,
 				D00B8CB01B2E3BC3003E5FED /* Headers */,
@@ -322,15 +392,16 @@
 			);
 			dependencies = (
 			);
-			name = "LogKit OSX";
+			name = "HyperLogKit OSX";
 			productName = "LogKit OSX";
-			productReference = D00B8CB31B2E3BC3003E5FED /* LogKit.framework */;
+			productReference = D00B8CB31B2E3BC3003E5FED /* HyperLogKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D00B8CBC1B2E3BC3003E5FED /* LogKit OSX Tests */ = {
+		D00B8CBC1B2E3BC3003E5FED /* HyperLogKit OSX Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D00B8CC91B2E3BC3003E5FED /* Build configuration list for PBXNativeTarget "LogKit OSX Tests" */;
+			buildConfigurationList = D00B8CC91B2E3BC3003E5FED /* Build configuration list for PBXNativeTarget "HyperLogKit OSX Tests" */;
 			buildPhases = (
+				0D731D47B2CC26F2CE2CA6FB /* [CP] Check Pods Manifest.lock */,
 				D00B8CB91B2E3BC3003E5FED /* Sources */,
 				D00B8CBA1B2E3BC3003E5FED /* Frameworks */,
 				D00B8CBB1B2E3BC3003E5FED /* Resources */,
@@ -340,15 +411,16 @@
 			dependencies = (
 				D00B8CC01B2E3BC3003E5FED /* PBXTargetDependency */,
 			);
-			name = "LogKit OSX Tests";
+			name = "HyperLogKit OSX Tests";
 			productName = "LogKit OSXTests";
-			productReference = D00B8CBD1B2E3BC3003E5FED /* LogKit OSX Tests.xctest */;
+			productReference = D00B8CBD1B2E3BC3003E5FED /* HyperLogKit OSX Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D0C6180A1BD01917008BF5F2 /* LogKit tvOS */ = {
+		D0C6180A1BD01917008BF5F2 /* HyperLogKit tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0C618201BD01918008BF5F2 /* Build configuration list for PBXNativeTarget "LogKit tvOS" */;
+			buildConfigurationList = D0C618201BD01918008BF5F2 /* Build configuration list for PBXNativeTarget "HyperLogKit tvOS" */;
 			buildPhases = (
+				F22500DCCD6288132161E9BA /* [CP] Check Pods Manifest.lock */,
 				D0C618061BD01917008BF5F2 /* Sources */,
 				D0C618071BD01917008BF5F2 /* Frameworks */,
 				D0C618081BD01917008BF5F2 /* Headers */,
@@ -358,15 +430,16 @@
 			);
 			dependencies = (
 			);
-			name = "LogKit tvOS";
+			name = "HyperLogKit tvOS";
 			productName = "LogKit tvOS";
-			productReference = D0C6180B1BD01917008BF5F2 /* LogKit.framework */;
+			productReference = D0C6180B1BD01917008BF5F2 /* HyperLogKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D0C618131BD01918008BF5F2 /* LogKit tvOS Tests */ = {
+		D0C618131BD01918008BF5F2 /* HyperLogKit tvOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0C618211BD01918008BF5F2 /* Build configuration list for PBXNativeTarget "LogKit tvOS Tests" */;
+			buildConfigurationList = D0C618211BD01918008BF5F2 /* Build configuration list for PBXNativeTarget "HyperLogKit tvOS Tests" */;
 			buildPhases = (
+				29C78F86CB9E14CE909B12B9 /* [CP] Check Pods Manifest.lock */,
 				D0C618101BD01918008BF5F2 /* Sources */,
 				D0C618111BD01918008BF5F2 /* Frameworks */,
 				D0C618121BD01918008BF5F2 /* Resources */,
@@ -376,15 +449,16 @@
 			dependencies = (
 				D0C618171BD01918008BF5F2 /* PBXTargetDependency */,
 			);
-			name = "LogKit tvOS Tests";
+			name = "HyperLogKit tvOS Tests";
 			productName = "LogKit tvOSTests";
-			productReference = D0C618141BD01918008BF5F2 /* LogKit tvOS Tests.xctest */;
+			productReference = D0C618141BD01918008BF5F2 /* HyperLogKit tvOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D0F8DD281B4B1ADC00D0865A /* LogKit watchOS */ = {
+		D0F8DD281B4B1ADC00D0865A /* HyperLogKit watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0F8DD301B4B1ADC00D0865A /* Build configuration list for PBXNativeTarget "LogKit watchOS" */;
+			buildConfigurationList = D0F8DD301B4B1ADC00D0865A /* Build configuration list for PBXNativeTarget "HyperLogKit watchOS" */;
 			buildPhases = (
+				0F1D98EB8CDB4AA9E4124813 /* [CP] Check Pods Manifest.lock */,
 				D0F8DD241B4B1ADC00D0865A /* Sources */,
 				D0F8DD251B4B1ADC00D0865A /* Frameworks */,
 				D0F8DD261B4B1ADC00D0865A /* Headers */,
@@ -394,9 +468,9 @@
 			);
 			dependencies = (
 			);
-			name = "LogKit watchOS";
+			name = "HyperLogKit watchOS";
 			productName = "LogKit Watch";
-			productReference = D0F8DD291B4B1ADC00D0865A /* LogKit.framework */;
+			productReference = D0F8DD291B4B1ADC00D0865A /* HyperLogKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -434,7 +508,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D00B8C8C1B2E3B8F003E5FED /* Build configuration list for PBXProject "LogKit" */;
+			buildConfigurationList = D00B8C8C1B2E3B8F003E5FED /* Build configuration list for PBXProject "HyperLogKit" */;
 			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -447,13 +521,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D00B8CB21B2E3BC3003E5FED /* LogKit OSX */,
-				D00B8CBC1B2E3BC3003E5FED /* LogKit OSX Tests */,
-				D00B8C911B2E3B8F003E5FED /* LogKit iOS */,
-				D00B8C9C1B2E3B8F003E5FED /* LogKit iOS Tests */,
-				D0C6180A1BD01917008BF5F2 /* LogKit tvOS */,
-				D0C618131BD01918008BF5F2 /* LogKit tvOS Tests */,
-				D0F8DD281B4B1ADC00D0865A /* LogKit watchOS */,
+				D00B8CB21B2E3BC3003E5FED /* HyperLogKit OSX */,
+				D00B8CBC1B2E3BC3003E5FED /* HyperLogKit OSX Tests */,
+				D00B8C911B2E3B8F003E5FED /* HyperLogKit iOS */,
+				D00B8C9C1B2E3B8F003E5FED /* HyperLogKit iOS Tests */,
+				D0C6180A1BD01917008BF5F2 /* HyperLogKit tvOS */,
+				D0C618131BD01918008BF5F2 /* HyperLogKit tvOS Tests */,
+				D0F8DD281B4B1ADC00D0865A /* HyperLogKit watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -509,6 +583,163 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D731D47B2CC26F2CE2CA6FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HyperLogKit OSX Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F1D98EB8CDB4AA9E4124813 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HyperLogKit watchOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29C78F86CB9E14CE909B12B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HyperLogKit tvOS Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66DE99C36AB6021081AF2F75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HyperLogKit iOS Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7901344444337B6605305562 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HyperLogKit OSX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0EDE914675EF3FE1CDAA7F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HyperLogKit iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F22500DCCD6288132161E9BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HyperLogKit tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D00B8C8D1B2E3B8F003E5FED /* Sources */ = {
@@ -591,17 +822,17 @@
 /* Begin PBXTargetDependency section */
 		D00B8CA01B2E3B8F003E5FED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D00B8C911B2E3B8F003E5FED /* LogKit iOS */;
+			target = D00B8C911B2E3B8F003E5FED /* HyperLogKit iOS */;
 			targetProxy = D00B8C9F1B2E3B8F003E5FED /* PBXContainerItemProxy */;
 		};
 		D00B8CC01B2E3BC3003E5FED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D00B8CB21B2E3BC3003E5FED /* LogKit OSX */;
+			target = D00B8CB21B2E3BC3003E5FED /* HyperLogKit OSX */;
 			targetProxy = D00B8CBF1B2E3BC3003E5FED /* PBXContainerItemProxy */;
 		};
 		D0C618171BD01918008BF5F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D0C6180A1BD01917008BF5F2 /* LogKit tvOS */;
+			target = D0C6180A1BD01917008BF5F2 /* HyperLogKit tvOS */;
 			targetProxy = D0C618161BD01918008BF5F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -738,6 +969,7 @@
 		};
 		D00B8CA91B2E3B8F003E5FED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D67D05BCC3059C290C3FCC /* Pods-HyperLogKit iOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -759,7 +991,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "info.logkit.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = LogKit;
+				PRODUCT_NAME = HyperLogKit;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -769,6 +1001,7 @@
 		};
 		D00B8CAA1B2E3B8F003E5FED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D721B8C8A530E945AA9031ED /* Pods-HyperLogKit iOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -790,7 +1023,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "info.logkit.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = LogKit;
+				PRODUCT_NAME = HyperLogKit;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -799,6 +1032,7 @@
 		};
 		D00B8CAC1B2E3B8F003E5FED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C15487ACA0808AC877AA5E1E /* Pods-HyperLogKit iOS Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
 				DEVELOPMENT_TEAM = U8934S6SQ4;
@@ -819,6 +1053,7 @@
 		};
 		D00B8CAD1B2E3B8F003E5FED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3C70668319E8152801B8E42 /* Pods-HyperLogKit iOS Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
 				DEVELOPMENT_TEAM = U8934S6SQ4;
@@ -835,13 +1070,16 @@
 		};
 		D00B8CC71B2E3BC3003E5FED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E3C3D4CF1B367F50378B0D /* Pods-HyperLogKit OSX.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U8934S6SQ4;
 				DYLIB_COMPATIBILITY_VERSION = 1.0;
 				DYLIB_CURRENT_VERSION = 1.0.0;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -856,8 +1094,10 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = "info.logkit.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = LogKit;
+				PRODUCT_NAME = HyperLogKit;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -866,12 +1106,15 @@
 		};
 		D00B8CC81B2E3BC3003E5FED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 912B96094018309802DB8AF8 /* Pods-HyperLogKit OSX.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U8934S6SQ4;
 				DYLIB_COMPATIBILITY_VERSION = 1.0;
 				DYLIB_CURRENT_VERSION = 1.0.0;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -882,8 +1125,10 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = "info.logkit.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = LogKit;
+				PRODUCT_NAME = HyperLogKit;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -891,6 +1136,7 @@
 		};
 		D00B8CCA1B2E3BC3003E5FED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26993F74FB501BA143A30326 /* Pods-HyperLogKit OSX Tests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -918,6 +1164,7 @@
 		};
 		D00B8CCB1B2E3BC3003E5FED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51CDD88CFF45D441B02B780 /* Pods-HyperLogKit OSX Tests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -940,6 +1187,7 @@
 		};
 		D0C6181C1BD01918008BF5F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D076678422887A14C2BBD3F /* Pods-HyperLogKit tvOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -956,7 +1204,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "info.logkit.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = LogKit;
+				PRODUCT_NAME = HyperLogKit;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -965,6 +1213,7 @@
 		};
 		D0C6181D1BD01918008BF5F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E46ABE09D24E44EFC5087F /* Pods-HyperLogKit tvOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -981,7 +1230,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "info.logkit.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = LogKit;
+				PRODUCT_NAME = HyperLogKit;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -990,6 +1239,7 @@
 		};
 		D0C6181E1BD01918008BF5F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE8317C8F7A2A3F8930685C9 /* Pods-HyperLogKit tvOS Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvsimulator*]" = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1007,6 +1257,7 @@
 		};
 		D0C6181F1BD01918008BF5F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911942203AF0E477B099A2B6 /* Pods-HyperLogKit tvOS Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvsimulator*]" = "";
 				COPY_PHASE_STRIP = NO;
@@ -1024,6 +1275,7 @@
 		};
 		D0F8DD2E1B4B1ADC00D0865A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3B699E940707CC4D889E49 /* Pods-HyperLogKit watchOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=watchsimulator*]" = "";
@@ -1039,7 +1291,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = info.logkit.LogKit;
-				PRODUCT_NAME = LogKit;
+				PRODUCT_NAME = HyperLogKit;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -1048,6 +1300,7 @@
 		};
 		D0F8DD2F1B4B1ADC00D0865A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB0D7A4C84B6335B7F723C9 /* Pods-HyperLogKit watchOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=watchsimulator*]" = "";
@@ -1063,7 +1316,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = info.logkit.LogKit;
-				PRODUCT_NAME = LogKit;
+				PRODUCT_NAME = HyperLogKit;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -1073,7 +1326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D00B8C8C1B2E3B8F003E5FED /* Build configuration list for PBXProject "LogKit" */ = {
+		D00B8C8C1B2E3B8F003E5FED /* Build configuration list for PBXProject "HyperLogKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D00B8CA61B2E3B8F003E5FED /* Debug */,
@@ -1082,7 +1335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D00B8CA81B2E3B8F003E5FED /* Build configuration list for PBXNativeTarget "LogKit iOS" */ = {
+		D00B8CA81B2E3B8F003E5FED /* Build configuration list for PBXNativeTarget "HyperLogKit iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D00B8CA91B2E3B8F003E5FED /* Debug */,
@@ -1091,7 +1344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D00B8CAB1B2E3B8F003E5FED /* Build configuration list for PBXNativeTarget "LogKit iOS Tests" */ = {
+		D00B8CAB1B2E3B8F003E5FED /* Build configuration list for PBXNativeTarget "HyperLogKit iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D00B8CAC1B2E3B8F003E5FED /* Debug */,
@@ -1100,7 +1353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D00B8CC61B2E3BC3003E5FED /* Build configuration list for PBXNativeTarget "LogKit OSX" */ = {
+		D00B8CC61B2E3BC3003E5FED /* Build configuration list for PBXNativeTarget "HyperLogKit OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D00B8CC71B2E3BC3003E5FED /* Debug */,
@@ -1109,7 +1362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D00B8CC91B2E3BC3003E5FED /* Build configuration list for PBXNativeTarget "LogKit OSX Tests" */ = {
+		D00B8CC91B2E3BC3003E5FED /* Build configuration list for PBXNativeTarget "HyperLogKit OSX Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D00B8CCA1B2E3BC3003E5FED /* Debug */,
@@ -1118,7 +1371,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0C618201BD01918008BF5F2 /* Build configuration list for PBXNativeTarget "LogKit tvOS" */ = {
+		D0C618201BD01918008BF5F2 /* Build configuration list for PBXNativeTarget "HyperLogKit tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D0C6181C1BD01918008BF5F2 /* Debug */,
@@ -1127,7 +1380,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0C618211BD01918008BF5F2 /* Build configuration list for PBXNativeTarget "LogKit tvOS Tests" */ = {
+		D0C618211BD01918008BF5F2 /* Build configuration list for PBXNativeTarget "HyperLogKit tvOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D0C6181E1BD01918008BF5F2 /* Debug */,
@@ -1136,7 +1389,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0F8DD301B4B1ADC00D0865A /* Build configuration list for PBXNativeTarget "LogKit watchOS" */ = {
+		D0F8DD301B4B1ADC00D0865A /* Build configuration list for PBXNativeTarget "HyperLogKit watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D0F8DD2E1B4B1ADC00D0865A /* Debug */,

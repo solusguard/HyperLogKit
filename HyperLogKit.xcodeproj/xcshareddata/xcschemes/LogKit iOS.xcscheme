@@ -14,10 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D0C6180A1BD01917008BF5F2"
-               BuildableName = "LogKit.framework"
-               BlueprintName = "LogKit tvOS"
-               ReferencedContainer = "container:LogKit.xcodeproj">
+               BlueprintIdentifier = "D00B8C911B2E3B8F003E5FED"
+               BuildableName = "HyperLogKit.framework"
+               BlueprintName = "HyperLogKit iOS"
+               ReferencedContainer = "container:HyperLogKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D00B8C9C1B2E3B8F003E5FED"
+               BuildableName = "HyperLogKit iOS Tests.xctest"
+               BlueprintName = "HyperLogKit iOS Tests"
+               ReferencedContainer = "container:HyperLogKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D0C618131BD01918008BF5F2"
-               BuildableName = "LogKit tvOS Tests.xctest"
-               BlueprintName = "LogKit tvOS Tests"
-               ReferencedContainer = "container:LogKit.xcodeproj">
+               BlueprintIdentifier = "D00B8C9C1B2E3B8F003E5FED"
+               BuildableName = "HyperLogKit iOS Tests.xctest"
+               BlueprintName = "HyperLogKit iOS Tests"
+               ReferencedContainer = "container:HyperLogKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D0C6180A1BD01917008BF5F2"
-            BuildableName = "LogKit.framework"
-            BlueprintName = "LogKit tvOS"
-            ReferencedContainer = "container:LogKit.xcodeproj">
+            BlueprintIdentifier = "D00B8C911B2E3B8F003E5FED"
+            BuildableName = "HyperLogKit.framework"
+            BlueprintName = "HyperLogKit iOS"
+            ReferencedContainer = "container:HyperLogKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,10 +78,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D0C6180A1BD01917008BF5F2"
-            BuildableName = "LogKit.framework"
-            BlueprintName = "LogKit tvOS"
-            ReferencedContainer = "container:LogKit.xcodeproj">
+            BlueprintIdentifier = "D00B8C911B2E3B8F003E5FED"
+            BuildableName = "HyperLogKit.framework"
+            BlueprintName = "HyperLogKit iOS"
+            ReferencedContainer = "container:HyperLogKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,10 +96,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D0C6180A1BD01917008BF5F2"
-            BuildableName = "LogKit.framework"
-            BlueprintName = "LogKit tvOS"
-            ReferencedContainer = "container:LogKit.xcodeproj">
+            BlueprintIdentifier = "D00B8C911B2E3B8F003E5FED"
+            BuildableName = "HyperLogKit.framework"
+            BlueprintName = "HyperLogKit iOS"
+            ReferencedContainer = "container:HyperLogKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

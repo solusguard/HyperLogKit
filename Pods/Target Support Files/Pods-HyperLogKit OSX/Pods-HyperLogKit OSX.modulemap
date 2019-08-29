@@ -1,0 +1,6 @@
+framework module Pods_HyperLogKit_OSX {
+  umbrella header "Pods-HyperLogKit OSX-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21A2DD6F067E82D3CA30D21436C5022D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE82FAD66B3AE8940E580B74A55104C3 /* Foundation.framework */; };
+		21ABC0692C03EEEF5ECCA2A4B871837B /* Pods-HyperLogKit tvOS Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A3FDF9AB0D5F4EAD96A9E458463DF0 /* Pods-HyperLogKit tvOS Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FE40891F90972C5B2EB369D1E19C8A0 /* Pods-HyperLogKit tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B47A30584DC99D07C3F862E6976D227 /* Pods-HyperLogKit tvOS-dummy.m */; };
+		4465ACFF122B9C812FB3E32D7A58D5EE /* Pods-HyperLogKit OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E006A5D5A570AAA954DD180CD6E7F24E /* Pods-HyperLogKit OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		478645BEED8E52A1ECBA65A0EE23E9E7 /* Pods-HyperLogKit OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD183F4E1ED466507C7C6E6EFE5B404 /* Pods-HyperLogKit OSX-dummy.m */; };
+		4C4495F80CE9D9C660576D71164D341C /* Pods-HyperLogKit tvOS Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4ED742B8583DA5C3DB933656567F72 /* Pods-HyperLogKit tvOS Tests-dummy.m */; };
+		6367FD30043D1FB5D187B5F209F44338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE82FAD66B3AE8940E580B74A55104C3 /* Foundation.framework */; };
+		6C4814264256F98982CF6552EA4B407B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5219AEE11F0998E0ADD75AA73A7A7DC /* Cocoa.framework */; };
+		725A8905B247B1E71E03B6E8B7D16DB0 /* Pods-HyperLogKit iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 213C5E10AA63B22633C0143865076F1A /* Pods-HyperLogKit iOS-dummy.m */; };
+		79D62C48A905853FA7A1B94DCABCEA48 /* Pods-HyperLogKit iOS Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052532DBB2F7DA6B2EEFB0093B10DD8 /* Pods-HyperLogKit iOS Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A465F9B9964077AF9C7064E37F9A968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF83BE1E97A55908B52CB32B7B526D0B /* Foundation.framework */; };
+		BE28A561AEBA6794366E8B44D4D4EA24 /* Pods-HyperLogKit tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FA3A86B8F9CCFF2D90024FB4EF30E17 /* Pods-HyperLogKit tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFEC04536F71796041E97ED1F58EFF1C /* Pods-HyperLogKit iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 085792B5557405D8AFC3CFF54DD00117 /* Pods-HyperLogKit iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C19E13528A4C1DB433B92CE5EAFF6B23 /* Pods-HyperLogKit OSX Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC911713824FA55C2C2B29B50E76CF2F /* Pods-HyperLogKit OSX Tests-dummy.m */; };
+		C7368A2FBEA41E32A9EDA0206994EA98 /* Pods-HyperLogKit watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B85598688E4AD0BE3C8D302E4DF96CF2 /* Pods-HyperLogKit watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC1E4C7350EA470856B049FEE4A5BEDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF83BE1E97A55908B52CB32B7B526D0B /* Foundation.framework */; };
+		D739C97BDA665F1C7528C9DC48919AF4 /* Pods-HyperLogKit OSX Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF075FECBA8230E7DAC59EC42F2F7BF /* Pods-HyperLogKit OSX Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA3D0E25DAA91C7C8B40E2DB133FA7B3 /* Pods-HyperLogKit watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B7F6AC574D8290434B859D852A89FA /* Pods-HyperLogKit watchOS-dummy.m */; };
+		E0A6854610DC07C0E19ADE1E0E4289D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EC9B344BB330C9BC2FB8F7EC39997E /* Foundation.framework */; };
+		E92A810B481B853652A63F79DE5DC001 /* Pods-HyperLogKit iOS Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 339F34C3F4B351F2F29B503D41E9E9D9 /* Pods-HyperLogKit iOS Tests-dummy.m */; };
+		F2E4831E6D0617D96870142D752E192B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5219AEE11F0998E0ADD75AA73A7A7DC /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		015CB1637364FE447E77AF1934F2A34C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C57FAB92988B2CDEBC514841226FCC1D;
+			remoteInfo = "Pods-HyperLogKit iOS";
+		};
+		61E3B1D75A80A5C98B75F5E554097869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A2B0F2A4BB81CF087C8A0FB2646F861;
+			remoteInfo = "Pods-HyperLogKit OSX";
+		};
+		C6AFA7AA83B152B1D548C5BC2C593D4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38932FD6BDFE3825CB90F4ED11F49946;
+			remoteInfo = "Pods-HyperLogKit tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0052532DBB2F7DA6B2EEFB0093B10DD8 /* Pods-HyperLogKit iOS Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HyperLogKit iOS Tests-umbrella.h"; sourceTree = "<group>"; };
+		01B7F6AC574D8290434B859D852A89FA /* Pods-HyperLogKit watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HyperLogKit watchOS-dummy.m"; sourceTree = "<group>"; };
+		085792B5557405D8AFC3CFF54DD00117 /* Pods-HyperLogKit iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HyperLogKit iOS-umbrella.h"; sourceTree = "<group>"; };
+		097D764D77CD350B76F65AEFEEC214D2 /* Pods-HyperLogKit OSX Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperLogKit OSX Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		09E46C81D543FC289B81D5660AA55DF3 /* Pods-HyperLogKit tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HyperLogKit tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C50E60274B979C55B0BBCD6B71C112E /* Pods-HyperLogKit iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperLogKit iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DD86D13CBA34DE9EC1B7FEE4872CB3E /* Pods-HyperLogKit iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperLogKit iOS-Info.plist"; sourceTree = "<group>"; };
+		1D1C0E7FD7AB2D5C1FE4343387A00DB1 /* Pods-HyperLogKit tvOS Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HyperLogKit tvOS Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		213C5E10AA63B22633C0143865076F1A /* Pods-HyperLogKit iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HyperLogKit iOS-dummy.m"; sourceTree = "<group>"; };
+		2154ADF86200332BA8409A13B0EB17BA /* Pods-HyperLogKit OSX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperLogKit OSX-acknowledgements.plist"; sourceTree = "<group>"; };
+		23F05484BB41C859B0DAB8ABA2FF98A8 /* Pods-HyperLogKit tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperLogKit tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A934BCAF54455D50C0A224ABD8969CC /* Pods-HyperLogKit watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperLogKit watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		2BA613EEF4FE7ACE7AFC621016ECF1E2 /* Pods-HyperLogKit watchOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HyperLogKit watchOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F0BAE2E75B8C0938A53481469EBACD5 /* Pods-HyperLogKit OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperLogKit OSX.release.xcconfig"; sourceTree = "<group>"; };
+		321AEE14DB712566ED75C407CC7B0945 /* Pods-HyperLogKit OSX Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperLogKit OSX Tests.release.xcconfig"; sourceTree = "<group>"; };
+		339F34C3F4B351F2F29B503D41E9E9D9 /* Pods-HyperLogKit iOS Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HyperLogKit iOS Tests-dummy.m"; sourceTree = "<group>"; };
+		37CCF39EFB57D0266044F7B402D90ED6 /* Pods-HyperLogKit tvOS Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperLogKit tvOS Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		409384E6D42609B7C8017DCD0992E8BA /* Pods-HyperLogKit iOS Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperLogKit iOS Tests.release.xcconfig"; sourceTree = "<group>"; };
+		41C7EED04D0799ADA01C9D59773A2682 /* Pods-HyperLogKit watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HyperLogKit watchOS.modulemap"; sourceTree = "<group>"; };
+		4D40EAA109A33A7B3FCF05778FDA8701 /* Pods_HyperLogKit_OSX_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HyperLogKit_OSX_Tests.framework; path = "Pods-HyperLogKit OSX Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA3A86B8F9CCFF2D90024FB4EF30E17 /* Pods-HyperLogKit tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HyperLogKit tvOS-umbrella.h"; sourceTree = "<group>"; };
+		62F9394583809510D2505AFAC318FF00 /* Pods-HyperLogKit watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperLogKit watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		63062647571F219E5F324EAB6CFE50E9 /* Pods-HyperLogKit OSX Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HyperLogKit OSX Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		634F70453FEF338D19767C0E4B146A90 /* Pods-HyperLogKit watchOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperLogKit watchOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		6472B0934E2F072B64B451FF6288DFF1 /* Pods_HyperLogKit_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HyperLogKit_OSX.framework; path = "Pods-HyperLogKit OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66AC8842C256FC0C37E8F063726C4C2A /* Pods-HyperLogKit OSX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperLogKit OSX-Info.plist"; sourceTree = "<group>"; };
+		703C9A3A17D64692A9ED391D0FA5F917 /* Pods-HyperLogKit tvOS Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperLogKit tvOS Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		757CF307F147EC690BF8A999164A87D5 /* Pods_HyperLogKit_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HyperLogKit_iOS_Tests.framework; path = "Pods-HyperLogKit iOS Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BE20DCB63A449B32838F7820143A23 /* Pods-HyperLogKit iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HyperLogKit iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E77A5760AA567D53DED96A272BFDBA9 /* Pods-HyperLogKit tvOS Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HyperLogKit tvOS Tests.modulemap"; sourceTree = "<group>"; };
+		81A3FDF9AB0D5F4EAD96A9E458463DF0 /* Pods-HyperLogKit tvOS Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HyperLogKit tvOS Tests-umbrella.h"; sourceTree = "<group>"; };
+		85A4FFE17132E074396649C8AC49C309 /* Pods-HyperLogKit iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HyperLogKit iOS.modulemap"; sourceTree = "<group>"; };
+		8617F243501F56DFB4D517F398044291 /* Pods-HyperLogKit tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperLogKit tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		8A7D3F6FAD8551052A686A519C5FD46B /* Pods-HyperLogKit iOS Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperLogKit iOS Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B47A30584DC99D07C3F862E6976D227 /* Pods-HyperLogKit tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HyperLogKit tvOS-dummy.m"; sourceTree = "<group>"; };
+		8E4ED742B8583DA5C3DB933656567F72 /* Pods-HyperLogKit tvOS Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HyperLogKit tvOS Tests-dummy.m"; sourceTree = "<group>"; };
+		8E8ED0A1400CF4FDD62CAF30BC8CDFCA /* Pods-HyperLogKit watchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperLogKit watchOS-Info.plist"; sourceTree = "<group>"; };
+		9231BF02F686E709257C199D1B9C494C /* Pods-HyperLogKit OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HyperLogKit OSX.modulemap"; sourceTree = "<group>"; };
+		96561C9E7E3DAD32C50ED7398F4AA2BF /* Pods-HyperLogKit OSX Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperLogKit OSX Tests-Info.plist"; sourceTree = "<group>"; };
+		97E76D66CCBA3A5BBB0FEEC2583B051B /* Pods-HyperLogKit iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperLogKit iOS.release.xcconfig"; sourceTree = "<group>"; };
+		9D2CD9C7B01B1552C79A0301071F5BB9 /* Pods-HyperLogKit OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperLogKit OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1C31E3C9D0874C683E77431FCCC3E6C /* Pods-HyperLogKit iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperLogKit iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A697B188F28CEE08C88A19496AEFFDBA /* Pods-HyperLogKit OSX Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HyperLogKit OSX Tests.modulemap"; sourceTree = "<group>"; };
+		AA804160C44E9462AB8B1DE5B0A400C4 /* Pods-HyperLogKit iOS Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperLogKit iOS Tests-Info.plist"; sourceTree = "<group>"; };
+		AB879A2448907520BB93C7178AB48EA4 /* Pods-HyperLogKit iOS Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperLogKit iOS Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B063B3A03AB38A79E6207C28DD96E697 /* Pods-HyperLogKit iOS Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HyperLogKit iOS Tests.modulemap"; sourceTree = "<group>"; };
+		B1A7F9DF94F7376F80D1A682796674E1 /* Pods-HyperLogKit tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HyperLogKit tvOS.modulemap"; sourceTree = "<group>"; };
+		B5219AEE11F0998E0ADD75AA73A7A7DC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		B85598688E4AD0BE3C8D302E4DF96CF2 /* Pods-HyperLogKit watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HyperLogKit watchOS-umbrella.h"; sourceTree = "<group>"; };
+		C5743090C2C9E5CDB55539820066EFF9 /* Pods_HyperLogKit_tvOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HyperLogKit_tvOS_Tests.framework; path = "Pods-HyperLogKit tvOS Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDDF209D5CB035A52F944650E5A727E /* Pods-HyperLogKit tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperLogKit tvOS-Info.plist"; sourceTree = "<group>"; };
+		CC2962B67D51C1CB3DAEDC730AD6C6BF /* Pods-HyperLogKit OSX Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperLogKit OSX Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF83BE1E97A55908B52CB32B7B526D0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D02A55F80F0FE4731D2D4A28DE9A15A9 /* Pods_HyperLogKit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HyperLogKit_tvOS.framework; path = "Pods-HyperLogKit tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D308CDD53F75F932C61C43DB781B0A09 /* Pods_HyperLogKit_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HyperLogKit_watchOS.framework; path = "Pods-HyperLogKit watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E006A5D5A570AAA954DD180CD6E7F24E /* Pods-HyperLogKit OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HyperLogKit OSX-umbrella.h"; sourceTree = "<group>"; };
+		E051178897EF37F22DEB59C9F5A03E1B /* Pods-HyperLogKit OSX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HyperLogKit OSX-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E9ECBC32740EDF993CF17D531D8EF317 /* Pods-HyperLogKit tvOS Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperLogKit tvOS Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EAF075FECBA8230E7DAC59EC42F2F7BF /* Pods-HyperLogKit OSX Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HyperLogKit OSX Tests-umbrella.h"; sourceTree = "<group>"; };
+		EC911713824FA55C2C2B29B50E76CF2F /* Pods-HyperLogKit OSX Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HyperLogKit OSX Tests-dummy.m"; sourceTree = "<group>"; };
+		EE82FAD66B3AE8940E580B74A55104C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EFE1F49B33E9446E452BA511B4EF0655 /* Pods-HyperLogKit tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperLogKit tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F5EC9B344BB330C9BC2FB8F7EC39997E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FBA40B010EB3558606B93D9A629A876C /* Pods-HyperLogKit iOS Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HyperLogKit iOS Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBD183F4E1ED466507C7C6E6EFE5B404 /* Pods-HyperLogKit OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HyperLogKit OSX-dummy.m"; sourceTree = "<group>"; };
+		FDD26017B4E36A9D8BA95F10151F1FA6 /* Pods-HyperLogKit tvOS Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperLogKit tvOS Tests-Info.plist"; sourceTree = "<group>"; };
+		FE2708C3861590260A14956A156D6262 /* Pods_HyperLogKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HyperLogKit_iOS.framework; path = "Pods-HyperLogKit iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		211058F8ED1B032AF0C03C73B5D945D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E4831E6D0617D96870142D752E192B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A2C1EC62C2C67E473687E64310E8A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A465F9B9964077AF9C7064E37F9A968 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BE431CF674315DD90230490719C4F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4814264256F98982CF6552EA4B407B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDEBFA20E0A2657C52356F508F29F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A6854610DC07C0E19ADE1E0E4289D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BC108C0F28539FBB51C518D1DD63BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1E4C7350EA470856B049FEE4A5BEDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF18ACF2DCC9D0D98C4ADF64269B25A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6367FD30043D1FB5D187B5F209F44338 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A0CF8FA9B35C2A14200930EDABFC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A2DD6F067E82D3CA30D21436C5022D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2849F80ABE0B7A4F16F60E2408FB1D92 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D71058CA2B0FD30F7AAF302D74A5301 /* Pods-HyperLogKit iOS */,
+				5D2B3A1936FE2AE8D86967229FBA8CD7 /* Pods-HyperLogKit iOS Tests */,
+				D64A98D5A89C5D022DA96E9F31AE723F /* Pods-HyperLogKit OSX */,
+				892899D1D78EC61C8572D68E0A29DB1E /* Pods-HyperLogKit OSX Tests */,
+				D79BCC63744ECDE18DD5398D470C83E2 /* Pods-HyperLogKit tvOS */,
+				36E73923389E60F75AF63B5F49C4EB07 /* Pods-HyperLogKit tvOS Tests */,
+				68583C0C86C7CA6CFEC975B0BB86A7FB /* Pods-HyperLogKit watchOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2D71058CA2B0FD30F7AAF302D74A5301 /* Pods-HyperLogKit iOS */ = {
+			isa = PBXGroup;
+			children = (
+				85A4FFE17132E074396649C8AC49C309 /* Pods-HyperLogKit iOS.modulemap */,
+				79BE20DCB63A449B32838F7820143A23 /* Pods-HyperLogKit iOS-acknowledgements.markdown */,
+				0C50E60274B979C55B0BBCD6B71C112E /* Pods-HyperLogKit iOS-acknowledgements.plist */,
+				213C5E10AA63B22633C0143865076F1A /* Pods-HyperLogKit iOS-dummy.m */,
+				0DD86D13CBA34DE9EC1B7FEE4872CB3E /* Pods-HyperLogKit iOS-Info.plist */,
+				085792B5557405D8AFC3CFF54DD00117 /* Pods-HyperLogKit iOS-umbrella.h */,
+				A1C31E3C9D0874C683E77431FCCC3E6C /* Pods-HyperLogKit iOS.debug.xcconfig */,
+				97E76D66CCBA3A5BBB0FEEC2583B051B /* Pods-HyperLogKit iOS.release.xcconfig */,
+			);
+			name = "Pods-HyperLogKit iOS";
+			path = "Target Support Files/Pods-HyperLogKit iOS";
+			sourceTree = "<group>";
+		};
+		36E73923389E60F75AF63B5F49C4EB07 /* Pods-HyperLogKit tvOS Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7E77A5760AA567D53DED96A272BFDBA9 /* Pods-HyperLogKit tvOS Tests.modulemap */,
+				1D1C0E7FD7AB2D5C1FE4343387A00DB1 /* Pods-HyperLogKit tvOS Tests-acknowledgements.markdown */,
+				37CCF39EFB57D0266044F7B402D90ED6 /* Pods-HyperLogKit tvOS Tests-acknowledgements.plist */,
+				8E4ED742B8583DA5C3DB933656567F72 /* Pods-HyperLogKit tvOS Tests-dummy.m */,
+				FDD26017B4E36A9D8BA95F10151F1FA6 /* Pods-HyperLogKit tvOS Tests-Info.plist */,
+				81A3FDF9AB0D5F4EAD96A9E458463DF0 /* Pods-HyperLogKit tvOS Tests-umbrella.h */,
+				703C9A3A17D64692A9ED391D0FA5F917 /* Pods-HyperLogKit tvOS Tests.debug.xcconfig */,
+				E9ECBC32740EDF993CF17D531D8EF317 /* Pods-HyperLogKit tvOS Tests.release.xcconfig */,
+			);
+			name = "Pods-HyperLogKit tvOS Tests";
+			path = "Target Support Files/Pods-HyperLogKit tvOS Tests";
+			sourceTree = "<group>";
+		};
+		3FC4817A4E0F2D4F804022CB6561EB7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE2708C3861590260A14956A156D6262 /* Pods_HyperLogKit_iOS.framework */,
+				757CF307F147EC690BF8A999164A87D5 /* Pods_HyperLogKit_iOS_Tests.framework */,
+				6472B0934E2F072B64B451FF6288DFF1 /* Pods_HyperLogKit_OSX.framework */,
+				4D40EAA109A33A7B3FCF05778FDA8701 /* Pods_HyperLogKit_OSX_Tests.framework */,
+				D02A55F80F0FE4731D2D4A28DE9A15A9 /* Pods_HyperLogKit_tvOS.framework */,
+				C5743090C2C9E5CDB55539820066EFF9 /* Pods_HyperLogKit_tvOS_Tests.framework */,
+				D308CDD53F75F932C61C43DB781B0A09 /* Pods_HyperLogKit_watchOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A4D21523E5EB6778702CACF7C410915 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86163F234675C9B862D8F16F4BF989B8 /* iOS */,
+				5E7D4DF524A03505331CD3A7FFD320C0 /* OS X */,
+				B4532F4133248EC2661BA577741F1CA9 /* tvOS */,
+				77C5000785B4328E3949CEBF2835B233 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D2B3A1936FE2AE8D86967229FBA8CD7 /* Pods-HyperLogKit iOS Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B063B3A03AB38A79E6207C28DD96E697 /* Pods-HyperLogKit iOS Tests.modulemap */,
+				FBA40B010EB3558606B93D9A629A876C /* Pods-HyperLogKit iOS Tests-acknowledgements.markdown */,
+				8A7D3F6FAD8551052A686A519C5FD46B /* Pods-HyperLogKit iOS Tests-acknowledgements.plist */,
+				339F34C3F4B351F2F29B503D41E9E9D9 /* Pods-HyperLogKit iOS Tests-dummy.m */,
+				AA804160C44E9462AB8B1DE5B0A400C4 /* Pods-HyperLogKit iOS Tests-Info.plist */,
+				0052532DBB2F7DA6B2EEFB0093B10DD8 /* Pods-HyperLogKit iOS Tests-umbrella.h */,
+				AB879A2448907520BB93C7178AB48EA4 /* Pods-HyperLogKit iOS Tests.debug.xcconfig */,
+				409384E6D42609B7C8017DCD0992E8BA /* Pods-HyperLogKit iOS Tests.release.xcconfig */,
+			);
+			name = "Pods-HyperLogKit iOS Tests";
+			path = "Target Support Files/Pods-HyperLogKit iOS Tests";
+			sourceTree = "<group>";
+		};
+		5E7D4DF524A03505331CD3A7FFD320C0 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				B5219AEE11F0998E0ADD75AA73A7A7DC /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		68583C0C86C7CA6CFEC975B0BB86A7FB /* Pods-HyperLogKit watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				41C7EED04D0799ADA01C9D59773A2682 /* Pods-HyperLogKit watchOS.modulemap */,
+				2BA613EEF4FE7ACE7AFC621016ECF1E2 /* Pods-HyperLogKit watchOS-acknowledgements.markdown */,
+				634F70453FEF338D19767C0E4B146A90 /* Pods-HyperLogKit watchOS-acknowledgements.plist */,
+				01B7F6AC574D8290434B859D852A89FA /* Pods-HyperLogKit watchOS-dummy.m */,
+				8E8ED0A1400CF4FDD62CAF30BC8CDFCA /* Pods-HyperLogKit watchOS-Info.plist */,
+				B85598688E4AD0BE3C8D302E4DF96CF2 /* Pods-HyperLogKit watchOS-umbrella.h */,
+				62F9394583809510D2505AFAC318FF00 /* Pods-HyperLogKit watchOS.debug.xcconfig */,
+				2A934BCAF54455D50C0A224ABD8969CC /* Pods-HyperLogKit watchOS.release.xcconfig */,
+			);
+			name = "Pods-HyperLogKit watchOS";
+			path = "Target Support Files/Pods-HyperLogKit watchOS";
+			sourceTree = "<group>";
+		};
+		77C5000785B4328E3949CEBF2835B233 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				F5EC9B344BB330C9BC2FB8F7EC39997E /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		86163F234675C9B862D8F16F4BF989B8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EE82FAD66B3AE8940E580B74A55104C3 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		892899D1D78EC61C8572D68E0A29DB1E /* Pods-HyperLogKit OSX Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A697B188F28CEE08C88A19496AEFFDBA /* Pods-HyperLogKit OSX Tests.modulemap */,
+				63062647571F219E5F324EAB6CFE50E9 /* Pods-HyperLogKit OSX Tests-acknowledgements.markdown */,
+				CC2962B67D51C1CB3DAEDC730AD6C6BF /* Pods-HyperLogKit OSX Tests-acknowledgements.plist */,
+				EC911713824FA55C2C2B29B50E76CF2F /* Pods-HyperLogKit OSX Tests-dummy.m */,
+				96561C9E7E3DAD32C50ED7398F4AA2BF /* Pods-HyperLogKit OSX Tests-Info.plist */,
+				EAF075FECBA8230E7DAC59EC42F2F7BF /* Pods-HyperLogKit OSX Tests-umbrella.h */,
+				097D764D77CD350B76F65AEFEEC214D2 /* Pods-HyperLogKit OSX Tests.debug.xcconfig */,
+				321AEE14DB712566ED75C407CC7B0945 /* Pods-HyperLogKit OSX Tests.release.xcconfig */,
+			);
+			name = "Pods-HyperLogKit OSX Tests";
+			path = "Target Support Files/Pods-HyperLogKit OSX Tests";
+			sourceTree = "<group>";
+		};
+		B4532F4133248EC2661BA577741F1CA9 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				CF83BE1E97A55908B52CB32B7B526D0B /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5A4D21523E5EB6778702CACF7C410915 /* Frameworks */,
+				3FC4817A4E0F2D4F804022CB6561EB7A /* Products */,
+				2849F80ABE0B7A4F16F60E2408FB1D92 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D64A98D5A89C5D022DA96E9F31AE723F /* Pods-HyperLogKit OSX */ = {
+			isa = PBXGroup;
+			children = (
+				9231BF02F686E709257C199D1B9C494C /* Pods-HyperLogKit OSX.modulemap */,
+				E051178897EF37F22DEB59C9F5A03E1B /* Pods-HyperLogKit OSX-acknowledgements.markdown */,
+				2154ADF86200332BA8409A13B0EB17BA /* Pods-HyperLogKit OSX-acknowledgements.plist */,
+				FBD183F4E1ED466507C7C6E6EFE5B404 /* Pods-HyperLogKit OSX-dummy.m */,
+				66AC8842C256FC0C37E8F063726C4C2A /* Pods-HyperLogKit OSX-Info.plist */,
+				E006A5D5A570AAA954DD180CD6E7F24E /* Pods-HyperLogKit OSX-umbrella.h */,
+				9D2CD9C7B01B1552C79A0301071F5BB9 /* Pods-HyperLogKit OSX.debug.xcconfig */,
+				2F0BAE2E75B8C0938A53481469EBACD5 /* Pods-HyperLogKit OSX.release.xcconfig */,
+			);
+			name = "Pods-HyperLogKit OSX";
+			path = "Target Support Files/Pods-HyperLogKit OSX";
+			sourceTree = "<group>";
+		};
+		D79BCC63744ECDE18DD5398D470C83E2 /* Pods-HyperLogKit tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				B1A7F9DF94F7376F80D1A682796674E1 /* Pods-HyperLogKit tvOS.modulemap */,
+				09E46C81D543FC289B81D5660AA55DF3 /* Pods-HyperLogKit tvOS-acknowledgements.markdown */,
+				23F05484BB41C859B0DAB8ABA2FF98A8 /* Pods-HyperLogKit tvOS-acknowledgements.plist */,
+				8B47A30584DC99D07C3F862E6976D227 /* Pods-HyperLogKit tvOS-dummy.m */,
+				CBDDF209D5CB035A52F944650E5A727E /* Pods-HyperLogKit tvOS-Info.plist */,
+				4FA3A86B8F9CCFF2D90024FB4EF30E17 /* Pods-HyperLogKit tvOS-umbrella.h */,
+				EFE1F49B33E9446E452BA511B4EF0655 /* Pods-HyperLogKit tvOS.debug.xcconfig */,
+				8617F243501F56DFB4D517F398044291 /* Pods-HyperLogKit tvOS.release.xcconfig */,
+			);
+			name = "Pods-HyperLogKit tvOS";
+			path = "Target Support Files/Pods-HyperLogKit tvOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		320403656A0D2FAC76CA0681269D45E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEC04536F71796041E97ED1F58EFF1C /* Pods-HyperLogKit iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61FFAE852B60C6D93B95F8AC748256A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4465ACFF122B9C812FB3E32D7A58D5EE /* Pods-HyperLogKit OSX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCE8331B4BDA934AF9E1E725C360EE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE28A561AEBA6794366E8B44D4D4EA24 /* Pods-HyperLogKit tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F50FA9B5F246A9FBDA3E9A3EEA49A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D62C48A905853FA7A1B94DCABCEA48 /* Pods-HyperLogKit iOS Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28183B9C19B2ADDA0227EB8073A3C21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D739C97BDA665F1C7528C9DC48919AF4 /* Pods-HyperLogKit OSX Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7ED7E578E153F67FD344141E2593579 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21ABC0692C03EEEF5ECCA2A4B871837B /* Pods-HyperLogKit tvOS Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7925AE7AB819094762F557504F525AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7368A2FBEA41E32A9EDA0206994EA98 /* Pods-HyperLogKit watchOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C4BAF5145DAFBF1847C2E758BA695F2 /* Pods-HyperLogKit watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033DC973B6C205269D35F11A743BB2B3 /* Build configuration list for PBXNativeTarget "Pods-HyperLogKit watchOS" */;
+			buildPhases = (
+				E7925AE7AB819094762F557504F525AE /* Headers */,
+				95314931BDDF5A9480EBD70B1F68D212 /* Sources */,
+				8CDEBFA20E0A2657C52356F508F29F35 /* Frameworks */,
+				6C17FD9006EFE53B33F0C658A2FE8C95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HyperLogKit watchOS";
+			productName = "Pods-HyperLogKit watchOS";
+			productReference = D308CDD53F75F932C61C43DB781B0A09 /* Pods_HyperLogKit_watchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B04AA0B2EDB333BA9FD57037ADEECE6 /* Pods-HyperLogKit OSX Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83E5FB290D6B2904F91A9F57989A9256 /* Build configuration list for PBXNativeTarget "Pods-HyperLogKit OSX Tests" */;
+			buildPhases = (
+				B28183B9C19B2ADDA0227EB8073A3C21 /* Headers */,
+				65B92BA96BE834E6C78401127631A8C7 /* Sources */,
+				211058F8ED1B032AF0C03C73B5D945D6 /* Frameworks */,
+				033BC705B644305E33BBC7AF80D6ED88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				132D7E9150BA92E0C362283CC4E905F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-HyperLogKit OSX Tests";
+			productName = "Pods-HyperLogKit OSX Tests";
+			productReference = 4D40EAA109A33A7B3FCF05778FDA8701 /* Pods_HyperLogKit_OSX_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		38932FD6BDFE3825CB90F4ED11F49946 /* Pods-HyperLogKit tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A9BA1E6AB1491077BCE447B255E05ED /* Build configuration list for PBXNativeTarget "Pods-HyperLogKit tvOS" */;
+			buildPhases = (
+				8CCE8331B4BDA934AF9E1E725C360EE7 /* Headers */,
+				E8A97D62C9D0A690890C26F943151620 /* Sources */,
+				43A2C1EC62C2C67E473687E64310E8A7 /* Frameworks */,
+				3888A91560B48FC2095EEA8FCF96EDD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HyperLogKit tvOS";
+			productName = "Pods-HyperLogKit tvOS";
+			productReference = D02A55F80F0FE4731D2D4A28DE9A15A9 /* Pods_HyperLogKit_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45FBB589BAF8677E0BB26AB984327CA2 /* Pods-HyperLogKit tvOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6684AB5AB31961833ACDBD436D092C /* Build configuration list for PBXNativeTarget "Pods-HyperLogKit tvOS Tests" */;
+			buildPhases = (
+				C7ED7E578E153F67FD344141E2593579 /* Headers */,
+				466E3DA61F344145700E53980CB20771 /* Sources */,
+				A3BC108C0F28539FBB51C518D1DD63BB /* Frameworks */,
+				7AB6FBC89A82CB85CE850F583D24DC74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA4F9151605B150246E01CA390D7E3CA /* PBXTargetDependency */,
+			);
+			name = "Pods-HyperLogKit tvOS Tests";
+			productName = "Pods-HyperLogKit tvOS Tests";
+			productReference = C5743090C2C9E5CDB55539820066EFF9 /* Pods_HyperLogKit_tvOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A2B0F2A4BB81CF087C8A0FB2646F861 /* Pods-HyperLogKit OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DF342259B79B8CD2C4EE267524031A1 /* Build configuration list for PBXNativeTarget "Pods-HyperLogKit OSX" */;
+			buildPhases = (
+				61FFAE852B60C6D93B95F8AC748256A6 /* Headers */,
+				FAE98F7CDC21316B178D264BEB009519 /* Sources */,
+				74BE431CF674315DD90230490719C4F7 /* Frameworks */,
+				A7883C73216FF19D2F9ABD482980DF7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HyperLogKit OSX";
+			productName = "Pods-HyperLogKit OSX";
+			productReference = 6472B0934E2F072B64B451FF6288DFF1 /* Pods_HyperLogKit_OSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D46A7A7B600C06C6D7454838022014E /* Pods-HyperLogKit iOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0DE4BCE9F1330FF4D861481BF89BC5F /* Build configuration list for PBXNativeTarget "Pods-HyperLogKit iOS Tests" */;
+			buildPhases = (
+				A7F50FA9B5F246A9FBDA3E9A3EEA49A4 /* Headers */,
+				0948DCF33DB726E03C2BA7BD3FF6D79E /* Sources */,
+				E0A0CF8FA9B35C2A14200930EDABFC11 /* Frameworks */,
+				DF6FC98AFED3877AAE9DA5239ECB7ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				411A55059F54ADDC59D5D817F644C814 /* PBXTargetDependency */,
+			);
+			name = "Pods-HyperLogKit iOS Tests";
+			productName = "Pods-HyperLogKit iOS Tests";
+			productReference = 757CF307F147EC690BF8A999164A87D5 /* Pods_HyperLogKit_iOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C57FAB92988B2CDEBC514841226FCC1D /* Pods-HyperLogKit iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5288C8B5854DC1DE5382900313D139B1 /* Build configuration list for PBXNativeTarget "Pods-HyperLogKit iOS" */;
+			buildPhases = (
+				320403656A0D2FAC76CA0681269D45E4 /* Headers */,
+				7F6C46A79258FD6649635D3B367B156B /* Sources */,
+				AF18ACF2DCC9D0D98C4ADF64269B25A7 /* Frameworks */,
+				BF87A7407B7A469860A52929ABAE0396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HyperLogKit iOS";
+			productName = "Pods-HyperLogKit iOS";
+			productReference = FE2708C3861590260A14956A156D6262 /* Pods_HyperLogKit_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3FC4817A4E0F2D4F804022CB6561EB7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C57FAB92988B2CDEBC514841226FCC1D /* Pods-HyperLogKit iOS */,
+				8D46A7A7B600C06C6D7454838022014E /* Pods-HyperLogKit iOS Tests */,
+				6A2B0F2A4BB81CF087C8A0FB2646F861 /* Pods-HyperLogKit OSX */,
+				2B04AA0B2EDB333BA9FD57037ADEECE6 /* Pods-HyperLogKit OSX Tests */,
+				38932FD6BDFE3825CB90F4ED11F49946 /* Pods-HyperLogKit tvOS */,
+				45FBB589BAF8677E0BB26AB984327CA2 /* Pods-HyperLogKit tvOS Tests */,
+				0C4BAF5145DAFBF1847C2E758BA695F2 /* Pods-HyperLogKit watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		033BC705B644305E33BBC7AF80D6ED88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3888A91560B48FC2095EEA8FCF96EDD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C17FD9006EFE53B33F0C658A2FE8C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB6FBC89A82CB85CE850F583D24DC74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7883C73216FF19D2F9ABD482980DF7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF87A7407B7A469860A52929ABAE0396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6FC98AFED3877AAE9DA5239ECB7ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0948DCF33DB726E03C2BA7BD3FF6D79E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92A810B481B853652A63F79DE5DC001 /* Pods-HyperLogKit iOS Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466E3DA61F344145700E53980CB20771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4495F80CE9D9C660576D71164D341C /* Pods-HyperLogKit tvOS Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B92BA96BE834E6C78401127631A8C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19E13528A4C1DB433B92CE5EAFF6B23 /* Pods-HyperLogKit OSX Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F6C46A79258FD6649635D3B367B156B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725A8905B247B1E71E03B6E8B7D16DB0 /* Pods-HyperLogKit iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95314931BDDF5A9480EBD70B1F68D212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3D0E25DAA91C7C8B40E2DB133FA7B3 /* Pods-HyperLogKit watchOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A97D62C9D0A690890C26F943151620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE40891F90972C5B2EB369D1E19C8A0 /* Pods-HyperLogKit tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE98F7CDC21316B178D264BEB009519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478645BEED8E52A1ECBA65A0EE23E9E7 /* Pods-HyperLogKit OSX-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		132D7E9150BA92E0C362283CC4E905F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HyperLogKit OSX";
+			target = 6A2B0F2A4BB81CF087C8A0FB2646F861 /* Pods-HyperLogKit OSX */;
+			targetProxy = 61E3B1D75A80A5C98B75F5E554097869 /* PBXContainerItemProxy */;
+		};
+		411A55059F54ADDC59D5D817F644C814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HyperLogKit iOS";
+			target = C57FAB92988B2CDEBC514841226FCC1D /* Pods-HyperLogKit iOS */;
+			targetProxy = 015CB1637364FE447E77AF1934F2A34C /* PBXContainerItemProxy */;
+		};
+		CA4F9151605B150246E01CA390D7E3CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HyperLogKit tvOS";
+			target = 38932FD6BDFE3825CB90F4ED11F49946 /* Pods-HyperLogKit tvOS */;
+			targetProxy = C6AFA7AA83B152B1D548C5BC2C593D4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		023775123792BCAF793B18FDE5942BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8617F243501F56DFB4D517F398044291 /* Pods-HyperLogKit tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperLogKit tvOS/Pods-HyperLogKit tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperLogKit tvOS/Pods-HyperLogKit tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2667E7F2E859108C8890FE948D6CDDF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D2CD9C7B01B1552C79A0301071F5BB9 /* Pods-HyperLogKit OSX.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperLogKit OSX/Pods-HyperLogKit OSX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperLogKit OSX/Pods-HyperLogKit OSX.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C3F267FB0499C74E0BDC9294A7103D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE1F49B33E9446E452BA511B4EF0655 /* Pods-HyperLogKit tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperLogKit tvOS/Pods-HyperLogKit tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperLogKit tvOS/Pods-HyperLogKit tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DC039184E8D719DCC3CDD7682EE1B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409384E6D42609B7C8017DCD0992E8BA /* Pods-HyperLogKit iOS Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperLogKit iOS Tests/Pods-HyperLogKit iOS Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperLogKit iOS Tests/Pods-HyperLogKit iOS Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67F3E0A707FA636C28F2FE79C148608F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F9394583809510D2505AFAC318FF00 /* Pods-HyperLogKit watchOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperLogKit watchOS/Pods-HyperLogKit watchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperLogKit watchOS/Pods-HyperLogKit watchOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		69EC8D83FDD1CE3E06FC5C9A8AC4BE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		958666DEFAFBB79A1A5DF63E2C33AA09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 321AEE14DB712566ED75C407CC7B0945 /* Pods-HyperLogKit OSX Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperLogKit OSX Tests/Pods-HyperLogKit OSX Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperLogKit OSX Tests/Pods-HyperLogKit OSX Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F24BB4105E931FEF47E299164EFB953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A934BCAF54455D50C0A224ABD8969CC /* Pods-HyperLogKit watchOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperLogKit watchOS/Pods-HyperLogKit watchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperLogKit watchOS/Pods-HyperLogKit watchOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A7E5106E25D5D413CC7547E56EFC45EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB879A2448907520BB93C7178AB48EA4 /* Pods-HyperLogKit iOS Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperLogKit iOS Tests/Pods-HyperLogKit iOS Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperLogKit iOS Tests/Pods-HyperLogKit iOS Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8A9414103B3FF643D172C8149B04792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 703C9A3A17D64692A9ED391D0FA5F917 /* Pods-HyperLogKit tvOS Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperLogKit tvOS Tests/Pods-HyperLogKit tvOS Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperLogKit tvOS Tests/Pods-HyperLogKit tvOS Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B08BEB04320E446FBEC3D4CA8B781394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F0BAE2E75B8C0938A53481469EBACD5 /* Pods-HyperLogKit OSX.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperLogKit OSX/Pods-HyperLogKit OSX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperLogKit OSX/Pods-HyperLogKit OSX.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5DE5691D2346453118B58893F29319E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 097D764D77CD350B76F65AEFEEC214D2 /* Pods-HyperLogKit OSX Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperLogKit OSX Tests/Pods-HyperLogKit OSX Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperLogKit OSX Tests/Pods-HyperLogKit OSX Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9F60BA316A2FC9F8758942C20581CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9ECBC32740EDF993CF17D531D8EF317 /* Pods-HyperLogKit tvOS Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperLogKit tvOS Tests/Pods-HyperLogKit tvOS Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperLogKit tvOS Tests/Pods-HyperLogKit tvOS Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE3FA2EF28B4660B803E827F17221CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E76D66CCBA3A5BBB0FEEC2583B051B /* Pods-HyperLogKit iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperLogKit iOS/Pods-HyperLogKit iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperLogKit iOS/Pods-HyperLogKit iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E09F18DE4C528B19F3F7EAB1AA7D0ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		E474C4DA9E117B8C475B159BAE83BBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C31E3C9D0874C683E77431FCCC3E6C /* Pods-HyperLogKit iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperLogKit iOS/Pods-HyperLogKit iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperLogKit iOS/Pods-HyperLogKit iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		033DC973B6C205269D35F11A743BB2B3 /* Build configuration list for PBXNativeTarget "Pods-HyperLogKit watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F3E0A707FA636C28F2FE79C148608F /* Debug */,
+				9F24BB4105E931FEF47E299164EFB953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69EC8D83FDD1CE3E06FC5C9A8AC4BE9E /* Debug */,
+				E09F18DE4C528B19F3F7EAB1AA7D0ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A9BA1E6AB1491077BCE447B255E05ED /* Build configuration list for PBXNativeTarget "Pods-HyperLogKit tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3F267FB0499C74E0BDC9294A7103D4 /* Debug */,
+				023775123792BCAF793B18FDE5942BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5288C8B5854DC1DE5382900313D139B1 /* Build configuration list for PBXNativeTarget "Pods-HyperLogKit iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E474C4DA9E117B8C475B159BAE83BBF0 /* Debug */,
+				DE3FA2EF28B4660B803E827F17221CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83E5FB290D6B2904F91A9F57989A9256 /* Build configuration list for PBXNativeTarget "Pods-HyperLogKit OSX Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DE5691D2346453118B58893F29319E /* Debug */,
+				958666DEFAFBB79A1A5DF63E2C33AA09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DF342259B79B8CD2C4EE267524031A1 /* Build configuration list for PBXNativeTarget "Pods-HyperLogKit OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2667E7F2E859108C8890FE948D6CDDF7 /* Debug */,
+				B08BEB04320E446FBEC3D4CA8B781394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6684AB5AB31961833ACDBD436D092C /* Build configuration list for PBXNativeTarget "Pods-HyperLogKit tvOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8A9414103B3FF643D172C8149B04792 /* Debug */,
+				D9F60BA316A2FC9F8758942C20581CCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0DE4BCE9F1330FF4D861481BF89BC5F /* Build configuration list for PBXNativeTarget "Pods-HyperLogKit iOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E5106E25D5D413CC7547E56EFC45EC /* Debug */,
+				5DC039184E8D719DCC3CDD7682EE1B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

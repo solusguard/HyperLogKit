@@ -76,17 +76,17 @@ public final class LXLogger{
             let now = Date(timeIntervalSinceReferenceDate: timestamp)
             for endpoint in targetEndpoints {
                 let entryString = endpoint.entryFormatter.stringFromEntry(entry: LXLogEntry(
-                    message: message ?? "Empty",
-                    level: level.description ?? "Empty",
+                    message: message ,
+                    level: level.description ,
                     timestamp: now.timeIntervalSince1970,
                     dateTime: endpoint.dateFormatter.stringFromDate(date: now),
-                    functionName: functionName ?? "Empty",
-                    filePath: filePath ?? "Empty",
-                    lineNumber: lineNumber ?? 0,
-                    columnNumber: columnNumber ?? 0,
-                    threadID: threadID ?? "Empty",
-                    threadName: threadName ?? "Empty",
-                    isMainThread: isMainThread ?? false
+                    functionName: functionName ,
+                    filePath: filePath ,
+                    lineNumber: lineNumber ,
+                    columnNumber: columnNumber ,
+                    threadID: threadID ,
+                    threadName: threadName ,
+                    isMainThread: isMainThread
                 ), appendNewline: endpoint.requiresNewlines)
                 endpoint.write(string: entryString)
             }

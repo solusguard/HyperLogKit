@@ -36,7 +36,7 @@ public class PersistenceService {
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
-                fatalError("Unresolved error \(error), \(error.userInfo)")
+                NSLog("Unresolved error \(error)")
             }
         })
         return container
@@ -49,7 +49,7 @@ public class PersistenceService {
                     try viewContext.save()
                 } catch {
                     let nserror = error as NSError
-                    NSLog("Unresolved error \(nserror), \(nserror.userInfo)")
+                    NSLog("Unresolved error \(nserror)")
                     print("Error: \(error)\nCould not save Core Data context.")
                 }
                 viewContext.reset() // It will reset the context to clean up the cache and lower the memory.
@@ -64,7 +64,7 @@ public class PersistenceService {
             try fetchedResults = viewContext.fetch(fetchRequest) as? [NSManagedObject]
         } catch {
             let nserror = error as NSError
-            NSLog("Unresolved error \(nserror), \(nserror.userInfo)")
+            NSLog("Unresolved error \(nserror)")
             abort()
         }
         if let results = fetchedResults {

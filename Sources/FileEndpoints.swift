@@ -106,7 +106,7 @@ private class LXLogFile {
         try FileManager.default.ensureFile(at: URL)
         guard let handle = try? FileHandle(forWritingTo: URL as URL) else {
             assertionFailure("Error opening log file at path: \(URL.absoluteString ?? "emptyPath")")
-            throw NSError(domain: NSURLErrorDomain, code: NSURLErrorCannotOpenFile, userInfo: [NSURLErrorKey: URL])
+            throw NSError(domain: NSURLErrorDomain, code: NSURLErrorCannotOpenFile)
         }
         self.init(URL: URL, handle: handle, appending: shouldAppend)
     }
@@ -316,11 +316,7 @@ public class RotatingFileEndpoint: LXEndpoint {
         //TODO: Getting `nextURL` from `nextFile`, instead of calculating it again, might be more robust.
         NotificationCenter.default.post(
             name: NSNotification.Name(rawValue: LXFileEndpointWillRotateFilesNotification),
-            object: self,
-            userInfo: [
-                LXFileEndpointRotationCurrentURLKey: self.currentURL,
-                LXFileEndpointRotationNextURLKey: self.nextURL
-            ]
+            object: self
         )
 
         let previousURL = self.currentURL
@@ -329,11 +325,7 @@ public class RotatingFileEndpoint: LXEndpoint {
 
         NotificationCenter.default.post(
             name: NSNotification.Name(rawValue: LXFileEndpointDidRotateFilesNotification),
-            object: self,
-            userInfo: [
-                LXFileEndpointRotationCurrentURLKey: self.currentURL,
-                LXFileEndpointRotationPreviousURLKey: previousURL
-            ]
+            object: self
         )
     }
 

@@ -21,7 +21,6 @@ import Foundation
 ///
 /// - parameter       logKitVersion: The version of the LogKit framework that generated this Entry.
 /// - parameter             message: The message provided during the logging call.
-/// - parameter            userInfo: A set of additional values to be provided to each Endpoint's `entryFormatter`.
 /// - parameter               level: The name of the Entry's Priority Level.
 /// - parameter           timestamp: The number of seconds since the Unix epoch (midnight 1970-01-01 UTC).
 /// - parameter            dateTime: The Entry's timestamp as a string serialized by an Endpoint's `dateFormatter`.
@@ -49,8 +48,6 @@ public struct LXLogEntry {
     public let logKitVersion: String = LK_LOGKIT_VERSION
     /// The message provided during the logging call.
     public let message: String
-    /// A dictionary of additional values to be provided to each Endpoint's `entryFormatter`.
-    public let userInfo: [String: AnyObject]
     /// The name of the Entry's Priority Level.
     public let level: String
     /// The number of seconds since the Unix epoch (midnight 1970-01-01 UTC).
@@ -106,7 +103,6 @@ internal extension LXLogEntry {
         return [
             "logKitVersion": self.logKitVersion as AnyObject,
             "message": self.message as AnyObject,
-            "userInfo": self.userInfo as AnyObject,
             "level": self.level as AnyObject,
             "timestamp": self.timestamp as AnyObject,
             "dateTime": self.dateTime as AnyObject,

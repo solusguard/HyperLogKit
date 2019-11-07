@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,7 @@
 		176BA161233A5EB500881EC2 /* Logs+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176BA15B2339D9C600881EC2 /* Logs+CoreDataClass.swift */; };
 		176BA162233A5EB500881EC2 /* Logs+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176BA15F2339DA1400881EC2 /* Logs+CoreDataProperties.swift */; };
 		B82107B9230D9CD7000B3572 /* DatabaseEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82107B8230D9CD7000B3572 /* DatabaseEndpoints.swift */; };
-		B82107BF230DB792000B3572 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82107BE230DB792000B3572 /* CoreData.framework */; };
+		B8306A0623749357006A9816 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82107BE230DB792000B3572 /* CoreData.framework */; platformFilter = ios; };
 		B8C29FBC231ED81F004A68E0 /* HyperLogKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00B8CB31B2E3BC3003E5FED /* HyperLogKit.framework */; };
 		B8E5BC1C231EED8000926B3B /* HyperLogKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8E5BC1A231EED8000926B3B /* HyperLogKit.xcdatamodeld */; };
 		D00B8C9E1B2E3B8F003E5FED /* HyperLogKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00B8C921B2E3B8F003E5FED /* HyperLogKit.framework */; };
@@ -104,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B82107BF230DB792000B3572 /* CoreData.framework in Frameworks */,
+				B8306A0623749357006A9816 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -770,7 +770,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1.6;
+				MARKETING_VERSION = 3.1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = info.hyperlogkit.HyperLogKit;
 				PRODUCT_NAME = HyperLogKit;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -802,7 +802,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1.6;
+				MARKETING_VERSION = 3.1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = info.hyperlogkit.HyperLogKit;
 				PRODUCT_NAME = HyperLogKit;
 				PROVISIONING_PROFILE_SPECIFIER = "";

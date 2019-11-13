@@ -59,7 +59,6 @@ public final class LXLogger{
     /// individual settings. Then, it is dispatched to the Endpoint for writing.
     private func log(
         messageBlock: String,
-        userInfo: [String: AnyObject],
         level: LXPriorityLevel,
         functionName: String,
         filePath: String,
@@ -77,17 +76,16 @@ public final class LXLogger{
             let now = Date(timeIntervalSinceReferenceDate: timestamp)
             for endpoint in targetEndpoints {
                 let entryString = endpoint.entryFormatter.stringFromEntry(entry: LXLogEntry(
-                    message: message,
-                    userInfo: userInfo,
-                    level: level.description,
+                    message: message ,
+                    level: level.description ,
                     timestamp: now.timeIntervalSince1970,
                     dateTime: endpoint.dateFormatter.stringFromDate(date: now),
-                    functionName: functionName,
-                    filePath: filePath,
-                    lineNumber: lineNumber,
-                    columnNumber: columnNumber,
-                    threadID: threadID,
-                    threadName: threadName,
+                    functionName: functionName ,
+                    filePath: filePath ,
+                    lineNumber: lineNumber ,
+                    columnNumber: columnNumber ,
+                    threadID: threadID ,
+                    threadName: threadName ,
                     isMainThread: isMainThread
                 ), appendNewline: endpoint.requiresNewlines)
                 endpoint.write(string: entryString)
@@ -98,96 +96,84 @@ public final class LXLogger{
     func debug(
         message: String
     ) {
-        self.debug(message: message, userInfo: [:])
+        self.debug(message: message)
     }
     /// Log a `Debug` entry.
     ///
     /// - parameter message:  The message to log.
-    /// - parameter userInfo: A dictionary of additional values for Endpoints to consider.
     public func debug(
         message: String,
-        userInfo: [String: AnyObject] = [:],
         functionName: String = #function,
         filePath: String = #file,
         lineNumber: Int = #line,
         columnNumber: Int = #column
     ) {
-        self.log(messageBlock: message, userInfo: userInfo, level: .Debug, functionName: functionName, filePath: filePath, lineNumber: lineNumber, columnNumber: columnNumber)
+        self.log(messageBlock: message,level: .Debug, functionName: functionName, filePath: filePath, lineNumber: lineNumber, columnNumber: columnNumber)
     }
 
     /// Log an `Info` entry.
     ///
     /// - parameter message:  The message to log.
-    /// - parameter userInfo: A dictionary of additional values for Endpoints to consider.
     public func info(
         message: String,
-        userInfo: [String: AnyObject] = [:],
         functionName: String = #function,
         filePath: String = #file,
         lineNumber: Int = #line,
         columnNumber: Int = #column
     ) {
-        self.log(messageBlock: message, userInfo: userInfo, level: .Info, functionName: functionName, filePath: filePath, lineNumber: lineNumber, columnNumber: columnNumber)
+        self.log(messageBlock: message, level: .Info, functionName: functionName, filePath: filePath, lineNumber: lineNumber, columnNumber: columnNumber)
     }
 
     /// Log a `Notice` entry.
     ///
     /// - parameter message:  The message to log.
-    /// - parameter userInfo: A dictionary of additional values for Endpoints to consider.
     public func notice(
         message: String,
-        userInfo: [String: AnyObject] = [:],
         functionName: String = #function,
         filePath: String = #file,
         lineNumber: Int = #line,
         columnNumber: Int = #column
     ) {
-        self.log(messageBlock: message, userInfo: userInfo, level: .Notice, functionName: functionName, filePath: filePath, lineNumber: lineNumber, columnNumber: columnNumber)
+        self.log(messageBlock: message, level: .Notice, functionName: functionName, filePath: filePath, lineNumber: lineNumber, columnNumber: columnNumber)
     }
 
     /// Log a `Warning` entry.
     ///
     /// - parameter message:  The message to log.
-    /// - parameter userInfo: A dictionary of additional values for Endpoints to consider.
     public func warning(
         message: String,
-        userInfo: [String: AnyObject] = [:],
         functionName: String = #function,
         filePath: String = #file,
         lineNumber: Int = #line,
         columnNumber: Int = #column
     ) {
-        self.log(messageBlock: message, userInfo: userInfo, level: .Warning, functionName: functionName, filePath: filePath, lineNumber: lineNumber, columnNumber: columnNumber)
+        self.log(messageBlock: message, level: .Warning, functionName: functionName, filePath: filePath, lineNumber: lineNumber, columnNumber: columnNumber)
     }
 
     /// Log an `Error` entry.
     ///
     /// - parameter message:  The message to log.
-    /// - parameter userInfo: A dictionary of additional values for Endpoints to consider.
     public func error(
         message: String,
-        userInfo: [String: AnyObject] = [:],
         functionName: String = #function,
         filePath: String = #file,
         lineNumber: Int = #line,
         columnNumber: Int = #column
     ) {
-        self.log(messageBlock: message, userInfo: userInfo, level: .Error, functionName: functionName, filePath: filePath, lineNumber: lineNumber, columnNumber: columnNumber)
+        self.log(messageBlock: message,level: .Error, functionName: functionName, filePath: filePath, lineNumber: lineNumber, columnNumber: columnNumber)
     }
 
     /// Log a `Critical` entry.
     ///
     /// - parameter message:  The message to log.
-    /// - parameter userInfo: A dictionary of additional values for Endpoints to consider.
     public func critical(
         message: String,
-        userInfo: [String: AnyObject] = [:],
         functionName: String = #function,
         filePath: String = #file,
         lineNumber: Int = #line,
         columnNumber: Int = #column
     ) {
-        self.log(messageBlock: message, userInfo: userInfo, level: .Critical, functionName: functionName, filePath: filePath, lineNumber: lineNumber, columnNumber: columnNumber)
+        self.log(messageBlock: message, level: .Critical, functionName: functionName, filePath: filePath, lineNumber: lineNumber, columnNumber: columnNumber)
     }
 
 }

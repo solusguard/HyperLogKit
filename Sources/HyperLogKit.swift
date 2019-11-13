@@ -173,7 +173,7 @@ internal extension FileManager {
 
         guard let dirPath = URL.deletingLastPathComponent?.path, let filePath = URL.path else {
             assertionFailure("Invalid path: \(String(describing: URL.absoluteString))")
-            throw NSError(domain: NSURLErrorDomain, code: NSURLErrorBadURL, userInfo: [NSURLErrorKey: URL])
+            throw NSError(domain: NSURLErrorDomain, code: NSURLErrorBadURL)
         }
 
         do { try FileManager.default.createDirectory(atPath: dirPath,
@@ -188,8 +188,7 @@ internal extension FileManager {
             guard FileManager.default.createFile(atPath: filePath, contents: nil, attributes: nil) else {
                 assertionFailure("Could not create file (maybe access denied?) at path: \(filePath)")
                 throw NSError(domain: NSURLErrorDomain,
-                              code: NSURLErrorCannotCreateFile,
-                              userInfo: [NSURLErrorKey: URL])
+                              code: NSURLErrorCannotCreateFile)
             }
         }
     }

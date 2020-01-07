@@ -31,15 +31,11 @@ public let LXFileEndpointWillRotateFilesNotification: String = "info.hyperlogkit
 /// file.
 ///
 /// The notification's `object` is the actual Endpoint instance that is rotating files. The `userInfo` dictionary
-/// contains the current and previous URLs, at the `LXFileEndpointRotationCurrentURLKey` and
-/// `LXFileEndpointRotationPreviousURLKey` keys, respectively.
-///
+/// contains the current at the `LXFileEndpointRotationCurrentURLKey` and
+
 /// This notification is send _after_ the rotation occurs, but _before_ any pending Log Entries have been written to
 /// the new file.
 public let LXFileEndpointDidRotateFilesNotification:  String = "info.hyperlogkit.endpoint.fileEndpoint.didRotateFiles"
-
-/// The value found at this key is the `NSURL` of the sender's previous log file.
-public let LXFileEndpointRotationPreviousURLKey:      String = "info.hyperlogkit.endpoint.fileEndpoint.previousURL"
 
 /// The value found at this key is the `NSURL` of the sender's current log file.
 public let LXFileEndpointRotationCurrentURLKey:       String = "info.hyperlogkit.endpoint.fileEndpoint.currentURL"
@@ -319,7 +315,6 @@ public class RotatingFileEndpoint: LXEndpoint {
             object: self
         )
 
-        let previousURL = self.currentURL
         self.currentFile = nextFile
         self.currentIndex = self.nextIndex
 

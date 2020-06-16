@@ -27,9 +27,6 @@ let package = Package(
         platforms: [
             .iOS(.v10),
         ],
-        dependencies: [
-            .package(url: "https://github.com/hyperoslo/Imaginary", .branch("master"))
-        ],
         targets: [
             .target(
                     name: "HyperLogKit",

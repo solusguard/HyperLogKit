@@ -28,7 +28,7 @@ let package = Package(
         ],
         platforms: [
             .iOS(.v10),
-            .macOS(.v10_9),
+            .macOS(.v10_10),
             .tvOS(.v9),
             .watchOS(.v2),
         ],

@@ -17,7 +17,28 @@
 
 import PackageDescription
 
-
 let package = Package(
-    name: "HyperLogKit"
+        name: "HyperLogKit",
+        products: [
+            .library(
+                    name: "HyperLogKit",
+                    targets: ["HyperLogKit"]),
+        ],
+        platforms: [
+            .iOS(.v10),
+        ],
+        dependencies: [
+            .package(url: "https://github.com/hyperoslo/Imaginary", .branch("master"))
+        ],
+        targets: [
+            .target(
+                    name: "HyperLogKit",
+                    path: "Sources"
+            ),
+            .testTarget(
+                    name: "HyperLogKitTest",
+                    path: "Tests"
+            )
+        ],
+        swiftLanguageVersions: [.v5]
 )

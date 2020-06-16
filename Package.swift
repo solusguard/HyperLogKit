@@ -21,16 +21,16 @@ import PackageDescription
 
 let package = Package(
         name: "HyperLogKit",
-        products: [
-            .library(
-                    name: "HyperLogKit",
-                    targets: ["HyperLogKit"]),
-        ],
         platforms: [
             .iOS(.v10),
             .macOS(.v10_10),
             .tvOS(.v9),
             .watchOS(.v2),
+        ],
+        products: [
+            .library(
+                    name: "HyperLogKit",
+                    targets: ["HyperLogKit"]),
         ],
         targets: [
             .target(

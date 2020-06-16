@@ -1,3 +1,5 @@
+// swift-tools-version:5.1
+
 // Package.swift
 //
 // Copyright (c) 2015 - 2016, Justin Pawela & The LogKit Project
@@ -17,7 +19,28 @@
 
 import PackageDescription
 
-
 let package = Package(
-    name: "HyperLogKit"
+        name: "HyperLogKit",
+        platforms: [
+            .iOS(.v10),
+            .macOS(.v10_10),
+            .tvOS(.v9),
+            .watchOS(.v2),
+        ],
+        products: [
+            .library(
+                    name: "HyperLogKit",
+                    targets: ["HyperLogKit"]),
+        ],
+        targets: [
+            .target(
+                    name: "HyperLogKit",
+                    path: "Sources"
+            ),
+            .testTarget(
+                    name: "HyperLogKitTest",
+                    path: "Tests"
+            )
+        ],
+        swiftLanguageVersions: [.v5]
 )

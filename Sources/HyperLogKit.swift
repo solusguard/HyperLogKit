@@ -147,7 +147,7 @@ internal let LK_DEVICE_IDS: (vendor: String, advertising: String) = {
         let advertisingID = ""
     #else
         let adManager = ASIdentifierManager.shared()
-        let advertisingID = adManager.advertisingTrackingEnabled ? adManager.advertisingIdentifier.uuidString : ""
+        let advertisingID = adManager.isAdvertisingTrackingEnabled ? adManager.advertisingIdentifier.uuidString : ""
     #endif
     return (vendorID, advertisingID)
 #else
